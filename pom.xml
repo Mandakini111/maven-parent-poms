@@ -73,7 +73,7 @@
     <postgresql.version>42.5.6</postgresql.version>
     <ini4j.version>0.5.4</ini4j.version>
 
-    <osgi.core.version>6.0.0</osgi.core.version>
+    <osgi.core.version>8.0.0</osgi.core.version>
     <osgi.compendium.version>7.0.0</osgi.compendium.version>
 
     <karaf.version>4.4.6</karaf.version>
@@ -509,7 +509,7 @@
 
       <dependency>
         <groupId>org.osgi</groupId>
-        <artifactId>org.osgi.core</artifactId>
+        <artifactId>osgi.core</artifactId>
         <version>${osgi.core.version}</version>
         <scope>provided</scope>
       </dependency>
